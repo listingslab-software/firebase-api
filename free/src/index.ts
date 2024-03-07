@@ -7,8 +7,8 @@ import express, {Request, Response} from "express";
 import {nodemailRoutes} from "./nodemail";
 import {growspyRoutes} from "./growspy";
 
-const appName = "prOapi";
-const version = "2.5.7";
+const appName = "free-api";
+const version = "2.5.8";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
